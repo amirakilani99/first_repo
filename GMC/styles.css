@@ -1,12 +1,60 @@
 /* styles.css */
-
-.navbar {
-    display: inline;
+body {
     font-family: 'Roboto', sans-serif;
-  }
-  
-  nav a {
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.text-[#f1ac18] {
+    color: #f1ac18;
+}
+
+.bg-[#f1ac18] {
+    background-color: #f1ac18;
+}
+
+.text-[#79a33d] {
+    color: #79a33d;
+}
+
+.bg-[#79a33d] {
+    background-color: #79a33d;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #f1ac18;
+    border: none;
+}
+
+.btn-outline-success {
+    border-color: #79a33d;
+    color: #79a33d;
+}
+
+.btn-outline-success:hover {
+    background-color: #79a33d;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
