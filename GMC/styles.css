@@ -1,60 +1,69 @@
-/* styles.css */
-body {
-    font-family: 'Roboto', sans-serif;
+New! Keyboard shortcuts … Drive keyboard shortcuts have been updated to give you first-letters navigation
+/* .navbar-brand {
+  color: green !important;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.bg-cover {
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
+i {
+  font-size: 35px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: black;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.text-[#f1ac18] {
-    color: #f1ac18;
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  padding: 3%;
+  margin: 50px 0;
+}
+.total-price span {
+  font-size: 30px;
 }
 
-.bg-[#f1ac18] {
-    background-color: #f1ac18;
+.total {
+  font-weight: bold;
 }
-
-.text-[#79a33d] {
-    color: #79a33d;
+.list-products {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 70%;
 }
-
-.bg-[#79a33d] {
-    background-color: #79a33d;
-}
-
 .card {
-    border-radius: 10px;
-    overflow: hidden;
+  padding: 5%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.card-img-top {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.quantity {
+  font-size: 25px;
 }
 
-.btn-primary {
-    background-color: #f1ac18;
-    border: none;
+.card-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
 }
 
-.btn-outline-success {
-    border-color: #79a33d;
-    color: #79a33d;
-}
-
-.btn-outline-success:hover {
-    background-color: #79a33d;
-    color: white;
-}
-
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: relative;
+.fa-trash-alt {
+  color: #de6b5c;
 }
